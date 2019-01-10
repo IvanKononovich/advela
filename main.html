@@ -16,7 +16,7 @@
 <body>
     <header class="header">
         <div class="container clearfix">
-            <nav class="header__nav clearfix">
+            <nav class="nav clearfix">
                 <a href="#" class="nav__link nav__link_active">Каталог</a>
                 <a href="#" class="nav__link">Основные направления</a>
                 <a href="#" class="nav__link">Наши услуги</a>
@@ -24,7 +24,7 @@
                 <a href="#" class="nav__link">Порядок работы</a>
                 <a href="#" class="nav__link">Новости</a>
             </nav>
-            <div class="header__switch-language clearfix">
+            <div class="switch-language clearfix">
                 <div class="switch-language__tongue">rus</div>
                 <div class="switch-language__tongue switch-language__tongue_active">eng</div>
             </div>
@@ -32,13 +32,15 @@
     </header>
 
 <main class="main">
+    <div class="main__bg-img">
+    </div>
     <div class="container">
       <div class="main__container-row-communication">
         <div class="main__logo"></div>
         <form action="" class="main__search">
           <input type="text" class="search__entry-field" placeholder="Поиск">
         </form>
-        <div class="main__communication">
+        <div class="communication">
           <a href="#" class="communication__element communication__element_tel">+7 (499) 322-83-50</a>
           <a href="#" class="communication__element communication__element_email">sales@advela.ru</a>
         </div>
@@ -282,6 +284,33 @@
     </div>
 </main>
 
-<footer></footer>
+<footer class="footer">
+    <div class="container container_pos_footer">
+        <nav class="nav clearfix">
+            <a href="#" class="nav__link nav__link_active nav__link_active_footer">Каталог</a>
+            <a href="#" class="nav__link">Основные направления</a>
+            <a href="#" class="nav__link">Наши услуги</a>
+            <a href="#" class="nav__link">О нас</a>
+            <a href="#" class="nav__link">Порядок работы</a>
+            <a href="#" class="nav__link">Новости</a>
+        </nav>
+        <div class="button button_size button_text-color button_bg-color button_pos_footer">Сделать запрос</div>
+    </div>    
+    <div class="container container_pos_footer container_padding_small">
+        <div class="footer__simplified-logo">
+            <div class="simplified-logo__bg"></div>
+            <p class="simplified-logo__text">© 2015 «ADVELA» —<br>
+            Дистрибьютер электроных компонентов</p>
+        </div>
+        <div class="communication communication_footer">
+            <a href="#" class="communication__element communication__element_tel">+7 (499) 322-83-50</a>
+            <a href="#" class="communication__element communication__element_email">sales@advela.ru</a>
+        </div>
+        <div class="switch-language clearfix">
+            <div class="switch-language__tongue">rus</div>
+            <div class="switch-language__tongue switch-language__tongue_active">eng</div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
