@@ -25,8 +25,8 @@
                 <a href="#" class="nav__link">Новости</a>
             </nav>
             <div class="header__switch-language clearfix">
-                <div class="switch-language__tongue switch-language__tongue_rus">rus</div>
-                <div class="switch-language__tongue switch-language__tongue_eng">eng</div>
+                <div class="switch-language__tongue">rus</div>
+                <div class="switch-language__tongue switch-language__tongue_active">eng</div>
             </div>
         </div>    
     </header>
@@ -216,6 +216,41 @@
           <p class="container-delivery__description">При заказе от $ 1 000<br>
           <b>доставка до вашего офиса за наш счет!</b></p>
         </div>  
+      </div>
+    </div>
+    <div class="main__make-request">
+      <div class="container container_make-request">
+        <span class="title-appellation">Форма запроса</span>
+        <h3 class="title">Сделать запрос</h3>
+        <form action="" class="make-request__request-form">
+          <div class="request-form__container-request-form">
+            <label for="" class="container-request-form__entry-field-label">
+              <input type="text" id="fullname" placeholder="ФИО" class="container-request-form__entry-field">
+              <div class="container-request-form__entry-field-icon container-request-form__entry-field-icon_fullname"></div>
+            </label>
+            <label for="" class="container-request-form__entry-field-label">
+              <input type="text" placeholder="Телефон" class="container-request-form__entry-field">
+              <div class="container-request-form__entry-field-icon container-request-form__entry-field-icon_tel"></div>
+            </label>
+            
+            <label for="" class="container-request-form__entry-field-label">
+              <input type="text" placeholder="Электронная почта" class="container-request-form__entry-field">
+              <div class="container-request-form__entry-field-icon container-request-form__entry-field-icon_mail"></div>
+            </label>
+            <label for="" class="container-request-form__entry-field-label container-request-form__entry-field-label_float_left">
+              <input type="text" placeholder="Компонент" class="container-request-form__entry-field container-request-form__entry-field_size">
+              <div class="container-request-form__entry-field-icon container-request-form__entry-field-icon_component"></div>
+            </label>
+            <input type="text" class="container-request-form__entry-field container-request-form__entry-field_size_small">
+          </div>
+          <div class="request-form__container-request-form">
+              <label for="" class="container-request-form__entry-field-label container-request-form__entry-field-label_float_left">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Комментарии" class="container-request-form__entry-field container-request-form__entry-field_textarea"></textarea>
+                <div class="container-request-form__entry-field-icon container-request-form__entry-field-icon_comments"></div>
+              </label>
+          </div>
+        </form>
+        <div class="button button_size button_text-color button_bg-color button_no-shadow button_make-request ">Отправить запрос</div>
       </div>
     </div>
 </main>
