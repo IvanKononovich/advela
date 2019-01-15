@@ -121,7 +121,17 @@
                     <li  class="list-setting__tuning-container">
                         <span  class="list-setting__tuning">состояние</span>
                         <ul>
-                            <li class="tuning__container"></li>
+                            <li class="tuning__container">
+                                <form action="" class="tuning__degree-deterioration">
+                                    <input type="checkbox" id="new" name="new" class="degree-deterioration__checkbox">
+                                    <label for="new" class="degree-deterioration__description">Новый</label><br>
+                                    <input type="checkbox" id="by" name="by"  class="degree-deterioration__checkbox">
+                                    <label for="by"  class="degree-deterioration__description">Б/У</label><br>
+                                    <input type="checkbox" id="restored" name="restored"  class="degree-deterioration__checkbox">
+                                    <label for="restored"  class="degree-deterioration__description">Восстановленный</label>
+                                    <div class="filter-button">Применить фильтр</div>   
+                                </form>
+                            </li>
                         </ul>
                     </li>
                 </ul>
